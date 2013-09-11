@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliza", "Eliza\Eliza.csproj", "{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliza.Test", "Eliza.Test\Eliza.Test.csproj", "{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49ADC60D-34C3-4B4F-9AA2-9CC07F6AC3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82BB9E4-85DF-4BA8-8C0C-756C875D565D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Eliza\Eliza.csproj
+	EndGlobalSection
+EndGlobal

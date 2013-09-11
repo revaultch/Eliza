@@ -1,0 +1,7 @@
+Eliza/bin
+Eliza/obj
+Eliza.Test/bin
+Eliza.Test/obj
+Eliza.Test/test-results
+.DS_Store
+*.userprefs
