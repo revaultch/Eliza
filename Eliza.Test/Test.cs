@@ -7,24 +7,22 @@
 // <summary></summary>
 //
 using System;
-using NUnit.Framework;
 
 namespace Eliza.Test
 {
-	[TestFixture()]
-	public class Test
-	{
-		[Test()]
-		public void TestCase ()
-		{
-			ElizaMain eliza = new ElizaMain();
+    [TestFixture()]
+    public class Test
+    {
+        [Test()]
+        public void TestCase()
+        {
+            var eliza = new ElizaMain();
 
-			foreach (var s in new string[] {"Hello", "Well, and you?", "I'm implementing some weird project.", "Yes, can you give me technical advice?", "Thank you.", "Bye."}) {
-				Console.WriteLine("> {0}", s);
-				Console.WriteLine("< {0}", eliza.ProcessInput(s));
-			}
-
-		}
-	}
+            foreach (var s in new string[] { "Hello", "Well, and you?", "I'm implementing some weird project.", "Yes, can you give me technical advice?", "Thank you.", "Bye." })
+            {
+                Console.WriteLine("> {0}", s);
+                Console.WriteLine("< {0}", eliza.ProcessInput(s));
+            }
+        }
+    }
 }
-

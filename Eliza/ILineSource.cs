@@ -1,9 +1,9 @@
 namespace Eliza
 {
-	public interface ILineSource
-	{
-		string ReadLine();
+    public interface ILineSource
+    {
+        string ReadLine();
 
-		void Close();
-	}
+        void Close();
+    }
 }
