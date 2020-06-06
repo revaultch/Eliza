@@ -6,25 +6,25 @@
 // <date>07/20/2013</date>
 // <summary></summary>
 //
-using System;
 
 namespace Eliza
 {
-	public class ConsoleSurrogate
-	{
-		public static void WriteLine() {
-		}
-		public static void WriteLine(string s) {
+    public class ConsoleSurrogate
+    {
+        public static void WriteLine()
+        {
+        }
 
-		}
+        public static void WriteLine(string s)
+        {
+        }
 
-		public static void Write(string s) {
+        public static void Write(string s)
+        {
+        }
 
-		}
-		public ConsoleSurrogate ()
-		{
-
-		}
-	}
+        public ConsoleSurrogate()
+        {
+        }
+    }
 }
-
